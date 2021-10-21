@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,700;1,900&display=swap');
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content{
+	font-family: 'Roboto', sans-serif;
+}
+.jumbotron{
+	min-height: auto;
+}
+.modal-body .form-control{
+	background-color: rgb(240, 240, 233);
+}
+.modal-body .form-control:focus{
+	background-color: #fffdd0;
+}
+/* ---------------------------------------------------
+    FOOTER STYLE
+----------------------------------------------------- */
+.footer{
+	position: absolute;
+	display: block;
+	left: 0;
+   	bottom: 0;
+	width: 100%;
+	padding: 8px 0;
+	background-color: darkslategrey;
+	overflow: hidden;
+}
+
+.footer .copyright{
+	text-align:center;
+	font-size:14px;
+	color:whitesmoke;
+	margin-bottom:0 ;
+}

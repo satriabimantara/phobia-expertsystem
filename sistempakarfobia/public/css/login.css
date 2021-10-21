@@ -1,0 +1,83 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.bg-login {
+	background-image: linear-gradient(to right, #410606, #e41818);
+}
+
+.bg-card-login {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.in-card {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.input-login {
+	border-radius: 8px;
+	background-color: #E6E6E6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+div.pict-card {
+	display: none;
+}
+.form-label {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.img-portrait {
+	width: 500px;
+	height: 800px;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+}
+
+.login-title {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 50px;
+}
+a.text-forgot-login {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+span.text-forgot-login {
+	color: #1FCC44;
+}
+a.text-createaccount {
+	color: #1FCC44;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.text-forgot {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+.btn-login{
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+@media (min-width: 992px) {
+	div.pict-card {
+		display: block;
+	}
+}
